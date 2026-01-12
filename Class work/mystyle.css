@@ -1,0 +1,35 @@
+*{
+    margin:0;
+}
+body{
+    font-family: googlefonts, fantasy;
+    background-color: rgb(244, 229, 216);
+}
+a{
+    color:yellow;
+}
+header{
+    background-color: black;
+    color: silver;
+    padding:20px;
+    text-align: center;
+}
+nav ul{
+    list-style:none;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+main h2{
+    font-size: 40px;
+    width: 60%;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+    color: red;
+}
+main p{
+    font-size: 14px;
+    color:#8b8b8b;
+}
