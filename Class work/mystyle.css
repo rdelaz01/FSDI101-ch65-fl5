@@ -1,35 +1,79 @@
+/*global*/
 *{
     margin:0;
 }
 body{
-    font-family: googlefonts, fantasy;
-    background-color: rgb(244, 229, 216);
+    font-family: arial;
+    background-color: rgb(239, 239, 239);
 }
 a{
-    color:yellow;
+    color:#ffcc00;
 }
-header{
+img{
+    max-width:100%;
+}
+/*header*/
+.site-header{
     background-color: black;
-    color: silver;
+    color:white;
     padding:20px;
     text-align: center;
 }
-nav ul{
+.menu .menu-link-container{
     list-style:none;
 }
-nav a{
-    color: white;
+.menu-link-container{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    padding: 10px;
+}
+.menu-link a{
+    color:white;
     text-decoration: none;
 }
-main h2{
-    font-size: 40px;
-    width: 60%;
-    margin: auto;
-    padding: 20px 0;
+.menu{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.menu-bar-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.order-btn{
+    background-color: red;
+    color:black;
+    text-decoration: none;
+    padding: 10px;
     text-align: center;
-    color: red;
+    border-radius: 5px;
+}
+/*main*/
+main{
+    width:80%;
+    text-align: center;
+    margin:100px auto 100px auto;
+}
+main h2{
+    font-size: 52px;
+    /* width: 50%; */
 }
 main p{
     font-size: 14px;
     color:#8b8b8b;
+    margin-top:20px;
+}
+main img{
+    margin-top: 30px;
+}
+
+/*Engine*/
+
+.card{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+    display: inline-block;
 }
